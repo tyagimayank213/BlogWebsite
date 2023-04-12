@@ -7,7 +7,7 @@ const Blog = () => {
 
   const {posts ,loading} = useContext(AppContext);
   return (
-    <div className='w-full mx-auto flex flex-col gap-6'>
+    <div className='w-full mx-auto flex flex-col gap-6 pt-16 pb-16'>
         {
             loading ? 
 
